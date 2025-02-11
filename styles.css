@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+    } 
+    html{
+
+        background-color: white;
+    }
+   body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 1000px;
+        height: 900px;
+        background-color:#f4f4f4; 
+max-width: 1000px;
+max-height: 95vh;
+padding-left: 15px;
+padding-right: 15px;
+margin: 15px auto;
+
+    }
+    a{
+        color: #0000ee;
+        background-color: #fff;
+        font-size: 14px;
+        border-bottom: 1px solid #e5e7e9 ;
+        padding:5px 0 ;
+    }
+.review-recommend{
+    background-color: #fff;
+}
+
+    #main-flex-container{
+        display: flex;
+       gap: 20px;
+      
+      
+    }
+    
+    .box{
+     
+        width: 950px;
+        /* height:1000px; */
+display: flex;
+flex-direction: column;
+
+
+    }
+/* #d7dbdd */
+    #community-events, #housing , #job{
+background-color: #f4f4f4;
+
+    }
+
+    #jobs{
+        background-color: #fff;
+    }
+    #community-events{
+display: flex;
+
+
+    }
+    #header-container{
+        display: flex;
+        justify-content: space-between; 
+
+    }
+
+     #header-container p>a{
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+font-weight:bold;
+margin-left: 40px;
+margin-bottom: 5%;
+padding: 0;
+    } 
+   
+    #header-container h3{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+font-weight:bold;
+background-color: #d7dbdd ;
+padding: 0 4rem;
+height: 40px;
+margin-bottom: 20px;
+    }
+    .other-craigslists{
+padding-right: 10%;
+
+    }
+
+#post-a-listing{
+text-align: center;
+background-color:#d7dbdd  ;
+height: 500px;
+
+}
+#post-a-listing #help-section a{
+   display:inline-flexbox;
+   background-color: white;
+}
+#post-a-listing .help-section-b{
+    margin-top: 5%;
+}
+#search-craiglist-flexcontainer{
+background-color:#bdc3c7   ;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    margin-bottom: 10%;
+    /* margin-left: 10px; */
+    padding: 0 10px;
+    /* width: 90%; */
+}
+/* label[for="search-craiglist"]{
+
+
+} */
+
+ #post-a-listing #help-section .help-section-a{
+margin-top: 10px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+
+
+}
+#post-a-listing #help-section .help-section-b{
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#main-flex-container .feedback{
+    margin-bottom: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+#main-flex-container .email{
+background-color:#f4f6f7 ;
+width: 150px;
+margin: 0 auto;
+margin-bottom: 10%;
+padding-bottom: 5px;
+font-size:14px ;
+}
+#main-flex-container .updated{
+    font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+}
+
+.community-events-text, p.housing-text,p.jobs-text, p.sale-wanted, p.personals {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 10px;
+    background-color:#d7dbdd ;
+}
+
+#community-events #activity{
+    margin-bottom: 20%;
+    margin-top: 10%;
+}
+
+#housing #resumes{
+    margin-top: 10%;
+}
+input[ id="search-craiglist"] {
+width: 60%;
+margin: 0 auto;
+height: 20px;
+
+}
+select[ name="community"]{
+width: 40%;
+margin: 0 auto;
+margin:0 40px;
+}
+button[type="button"] #go {
+    width: 25%;
+    margin:0 40px;
+  
+}
+/* button[type="button"] #s{
+
+    width: 25%;
+    margin:0 40px;
+} */
